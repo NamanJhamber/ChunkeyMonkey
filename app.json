@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "ChunkeyMonkey",
+    "slug": "ChunkeyMonkey",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+      "android": {
+        "package": "com.naman_08.ChunkeyMonkey"
+    },
+    "ios": { 
+        "supportsTablet": true,
+        "bundleIdentifier": "com.naman_08.ChunkeyMonkey"
+    },
+    "web": {
+      "favicon": "./logo.png"
+    }
+  }
+}
